@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>api</artifactId>
+    <artifactId>dao</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>api</name>
+    <name>dao</name>
 
 
     <dependencies>
