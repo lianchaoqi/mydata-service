@@ -1,9 +1,11 @@
 package com.jack.entrance;
 
-//import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.annotation.MapperScan;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
@@ -21,6 +23,9 @@ import org.springframework.context.annotation.ComponentScan;
 public class DataSeviceApplication {
     public static void main(String[] args) {
         SpringApplication.run(DataSeviceApplication.class, args);
+//        new SpringApplicationBuilder(DataSeviceApplication.class)
+//                .properties("spring-config-location=classpath:/application.yml")
+//                .run(args);
     }
 
 }
